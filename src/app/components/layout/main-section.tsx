@@ -28,11 +28,11 @@ export default function MainSection() {
     }
   };
   return (
-    <section className="mainSection w-full pt-72 border-[10px] border-mainGreen">
+    <section className="mainSection w-full pt-20 md:pt-72 border-[10px] border-mainGreen">
       <div className=' max-w-7xl m-auto px-4'>
 
-      <div className=' max-w-[538px] mb-52 flex flex-col gap-5'>
-        <h2 className=' font-semibold text-6xl'>The most transparent & secured bank</h2>
+      <div className=' max-w-[538px] mb-20 md:mb-52 flex flex-col gap-5'>
+        <h2 className=' font-semibold text-3xl md:text-6xl'>The most transparent & secured bank</h2>
 
         <p>At Sikapuduo Bank, we are dedicated to transparency and security in all aspects of our banking services.</p>
 

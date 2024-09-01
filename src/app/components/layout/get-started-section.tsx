@@ -30,7 +30,7 @@ const getStartedArr: getStartedType[] = [
 export default function GetStartedSection() {
   return (
     <section className=' max-w-7xl m-auto pt-28 px-4'>
-        <div className=' flex justify-between'>
+        <div className=' flex flex-col items-center md:flex-row justify-between'>
             <div className=' flex flex-col gap-3 max-w-[630px]'>
                 <h3 className=' font-semibold text-[55px]'>How to get started with Sikapuduo</h3>
                 <span className=' w-full block border-b border-gray-500'></span>

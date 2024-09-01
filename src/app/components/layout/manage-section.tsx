@@ -26,24 +26,24 @@ const manageArr: manageCardType[] = [
 export default function ManageSection() {
   return (
     <section className=" max-w-7xl bg-[#00D47E] text-[#091E42] m-auto py-3 px-3 flex flex-col items-center gap-10 rounded-2xl">
-      <div className=" flex justify-between gap-5 items-center">
-        <h3 className=" font-semibold text-[55px] max-w-[752px]">
+      <div className=" flex flex-col md:flex-row md:justify-between gap-5 items-center">
+        <h3 className=" font-semibold text-[30px] lg:text-[55px] max-w-[752px]">
           It has never been easier to manage your finances{" "}
         </h3>
 
-        <div className=" max-w-[426px] flex flex-col gap-4 items-start">
+        <div className=" md:max-w-[426px] flex md:flex-col gap-4 items-start text-sm md:text-base">
           <p>
             The most transparent and secured bank The most transparent and
             secured bank The most transparent and secured bank The most
             transparent and secured bank
           </p>
-          <button className=" bg-[#024751] rounded-lg text-white p-3">
+          <button className=" bg-[#024751] w-max min-w-[108px] rounded-lg text-white p-3">
             Get started
           </button>
         </div>
       </div>
 
-      <div className=" flex gap-3">
+      <div className=" flex gap-3 flex-wrap md:flex-nowrap justify-center">
         {
           manageArr.map((e,i) => {
             return (

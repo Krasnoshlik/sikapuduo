@@ -34,7 +34,7 @@ export default function QuestionsSection() {
 
   return (
     <section className='max-w-[650px] mx-auto px-3 text-center pt-16'>
-      <h3 className='font-semibold text-[50px]'>Frequently asked questions</h3>
+      <h3 className='font-semibold text-[30px] md:text-[50px]'>Frequently asked questions</h3>
 
       <div className='mt-10 text-left'>
         {questions.map((item, index) => (
